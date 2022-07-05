@@ -1,0 +1,94 @@
+* {
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+nav {
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 20px 36px;
+    background: #F55A5A;
+}
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+}
+
+.NavBarPic {
+    width: 32px;
+    height: 32px;
+}
+
+.NavBarText {
+    padding-left: 15px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.card {
+    padding-left: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.card--image {
+    border-radius: 5px;
+}
+
+.text--beside {
+    padding-left: 19px;
+}
+
+.loca--image {
+    padding-right: 4px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.GoogleMapLink {
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.card--dates {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.travel--info {
+    width: fit-content;
+    max-width: 850px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
